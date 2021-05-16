@@ -20,4 +20,5 @@ https://reverse-proxy-cf-mdn.lacknown.workers.dev/
 ## 已知局限 / 待完善
 - 部分站点（如 Bing 等）反代结果不正常。
 - 只能反代一个站点。
+- 依赖于其它 CDN JS 载入的网页可能会缺少内容（相关代码未完善）
 - ...
