@@ -7,6 +7,9 @@
 - 灵活处理网页内资源 / JS 加载，不漏内容。
 - 轻量，易搭建。你只需要的是一个免费的 Cloudflare 账号。
 
+## 测试用实例（反代 MDN）
+https://reverse-proxy-cf-mdn.lacknown.workers.dev/
+
 ## 如何使用？
 打开 index.js，修改下面的内容：
 - ```OLD_URL```：你想要镜像的站点域名
