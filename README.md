@@ -8,8 +8,10 @@
 - 多站点支持。一个节点，多个世界。
 - 轻量，易搭建。你只需要的是一个免费的 Cloudflare 账号。
 
-## 测试用实例（反代 MDN）
-https://reverse-proxy-cf-mdn.lacknown.workers.dev/
+## 测试用实例
+> 测试实例限制为仅允许访问以下两个域名。你可以自己搭建，搭建出来的实例没有限制。
+1. 反代 MDN：https://reverse-proxy-cf-mdn.lacknown.workers.dev/developer.mozilla.org
+2. 反代 example.com：https://reverse-proxy-cf-mdn.lacknown.workers.dev/example.com
 
 ## 如何使用？
 打开 index.js，修改下面的内容：
